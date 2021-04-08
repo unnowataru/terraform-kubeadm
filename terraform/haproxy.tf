@@ -1,4 +1,4 @@
-#Resource
+#Resource aaaaaaaaaaaaaaaaaaaaa
 resource "vsphere_virtual_machine" "vm" {
   count            = var.prov_vm_num_ha
 ##   name            = "${var.prov_vmname_prefix}${format("%03d",count.index+1)}"
